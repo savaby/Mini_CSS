@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Mini.css - Forms</title>
+    </head>
+    <body>
+        <h1>
+            Default form
+            <small>Default input is inline</small>
+        </h1>
+        <form>
+            <fieldset>
+                <legend>Simple form</legend>
+                <label for="username">Username</label>
+                <input type="text" id="Username" placeholder="Username" />
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" />
+            </fieldset>
+        </form>
+        <hr />
+        <h1>Form with grid</h1>
+        <form>
+            <fieldset>
+                <legend>Simple form</legend>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <label for="username">Username</label>
+                        <input
+                            type="text"
+                            id="Username"
+                            placeholder="Username"
+                        />
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Password"
+                        />
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
